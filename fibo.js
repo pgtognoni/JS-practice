@@ -6,6 +6,6 @@ function fiboSeries (number) {
     for (var i=fibo.length; i<number; i++) {
      fibo[i] = fibo[i-2] + fibo[i-1];
     }
-    return fibo[fibo.length-1];
+    return fibo[i-1];
 }
-console.log(fiboSeries(5));
+console.log(fiboSeries(8));
